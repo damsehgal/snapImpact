@@ -1,0 +1,71 @@
+p{
+text-align:center;
+font-size:16px;
+color:white;
+letter-spacing:1px;
+font-family:'PT Sans', sans-serif;
+}
+
+#error_bar{
+width:40%;
+height:80px;
+margin:0px auto;
+-webkit-border-radius:4px;
+margin-bottom:0px;
+}
+
+.button{
+border:2px solid #ffffff;
+text-decoration:none;
+width:350px;
+text-align:center;
+height:43px;
+color:white;
+font-size:20px;
+font-family:'PT Sans', sans-serif;
+background-color:#52B3D9;
+}
+
+.button:hover{
+-webkit-box-shadow:0px 0px 0px 1px #ffffff;
+transition:0.15s ease-in-out;
+}
+
+.main{
+width:350px;
+height:45px;
+border:2px solid #D1D5DE;
+-webkit-border-radius:4px;
+padding-left:10px;
+outline:none;
+font-family:'PT Sans', sans-serif;
+}
+
+.main:hover{
+border: 2px solid #ABB0BB;
+-webkit-transition:0.3s linear;
+}
+
+.main:active, .main:focus{
+	border: 2px solid #52B3D9;
+}
+.formback{
+	margin-top:55px;
+	text-align:center;
+}
+
+.logo{
+	width:300px;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #f0f0f0;
+}
+.table-striped>tbody>tr:nth-of-type(odd):hover {
+    background-color: #f0f0f0;
+}
+tr,td,td>a{
+color:black;
+}
+td>a:hover{
+color:black;
+}

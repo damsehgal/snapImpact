@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.example.dam.snapimpact.ComplaintPatholeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:layout_marginBottom="20dp"
+            android:text="Food Wastage Complaint"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+
+        android:hint="Sender name"
+        android:maxLines="1"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/fragment_complaint_food_name"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="text"
+
+        android:maxLines="1"
+        android:id="@+id/fragment_complaint_food_age"
+        android:hint="Age"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"
+        android:inputType="text"
+
+        android:layout_marginBottom="10dp"
+        android:hint="SEX"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="number"
+
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:maxLines="1"
+        android:hint="phone"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+
+        android:maxLines="1"
+        android:layout_marginBottom="10dp"
+        android:hint="email"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="roboto"
+            android:textSize="20dp"
+            android:text="Take photo:"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content"
+
+            >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CAMERA"
+            android:id ="@+id/fragment_complaint_food_camera"
+            android:layout_weight="0.5"
+            android:background="@color/accent_material_dark"
+            android:textColor="#FFFFFF"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_complaint_food_gallery"
+        android:text="GALLERY"
+        android:layout_weight="0.5"
+        android:background="@color/accent_material_dark"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        />
+            </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment_complaint_food_send"
+        android:text="SEND"
+        android:background="@color/accent_material_dark"
+        android:textColor="#FFFFFF"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/fragment_complaint_food_image_view"/>
+    </LinearLayout>
+</ScrollView>
